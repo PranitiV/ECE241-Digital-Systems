@@ -1,0 +1,166 @@
+#######################Part1###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 23:50:08 on Oct 24,2021
+vlog part1.v 
+-- Compiling module part1
+
+Top level modules:
+	part1
+End time: 23:50:08 on Oct 24,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/3/test/run.do" work.part1_tb 
+# Start time: 23:50:08 on Oct 24,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part1_tb
+# Loading work.part1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (3) for port 'MuxSelect'. The port definition is at: part1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /part1_tb/DUT File: /cad2/ece241f/public/3/test/part1_tb.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'Input'. The port definition is at: part1.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /part1_tb/DUT File: /cad2/ece241f/public/3/test/part1_tb.sv Line: 12
+# do /cad2/ece241f/public/3/test/run.do
+# input = 0101010, select = 0, your output = 0, golden_output = 0 PASSED
+# input = 0101010, select = 1, your output = 1, golden_output = 1 PASSED
+# input = 0101010, select = 2, your output = 0, golden_output = 0 PASSED
+# input = 0101010, select = 3, your output = 1, golden_output = 1 PASSED
+# input = 0101010, select = 4, your output = 0, golden_output = 0 PASSED
+# End time: 23:50:09 on Oct 24,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 5
+Number of FAILED: 0
+part1 is done!
+#######################Part2###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 23:50:09 on Oct 24,2021
+vlog part2.v 
+-- Compiling module full_adder
+-- Compiling module part2
+
+Top level modules:
+	part2
+End time: 23:50:09 on Oct 24,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/3/test/run.do" work.part2_tb 
+# Start time: 23:50:10 on Oct 24,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part2_tb
+# Loading work.part2
+# Loading work.full_adder
+# do /cad2/ece241f/public/3/test/run.do
+# input a = 0000, input b = 0000, output = 0001, golden_output = 0001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0000, output = 0000, golden_output = 0000, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0001, output = 0010, golden_output = 0010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0000, input b = 0001, output = 0001, golden_output = 0001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0010, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0010, output = 0010, golden_output = 0010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0011, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0000, input b = 0011, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0000, output = 0010, golden_output = 0010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0000, output = 0001, golden_output = 0001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0001, output = 0011, golden_output = 0011, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0001, output = 0010, golden_output = 0010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0010, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 0010, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0011, output = 0101, golden_output = 0101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 0011, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 0000, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0000, output = 0010, golden_output = 0010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0001, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 0001, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0010, output = 0101, golden_output = 0101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 0010, output = 0100, golden_output = 0100, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 0011, output = 0110, golden_output = 0110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 0011, output = 0101, golden_output = 0101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0011, input b = 0000, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0000, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0011, input b = 0001, output = 0101, golden_output = 0101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0001, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0010, output = 0110, golden_output = 0110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0010, output = 0101, golden_output = 0101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0011, input b = 0011, output = 0111, golden_output = 0111, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0011, output = 0110, golden_output = 0110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# End time: 23:50:10 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+######################SUMMARY of part2##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 32
+Number of FAILED: 0
+part2 is done!
+#######################Part3###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 23:50:10 on Oct 24,2021
+vlog part3.v 
+End time: 23:50:10 on Oct 24,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/3/test/run.do" work.part3_tb 
+# Start time: 23:50:11 on Oct 24,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part3_tb
+# ** Error: (vsim-3033) Instantiation of 'part3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /part3_tb File: /cad2/ece241f/public/3/test/part3_tb.sv Line: 16
+#         Searched libraries:
+#             /nfs/ug/homes-3/v/vakhari9/lab3/work
+# Error loading design
+# End time: 23:50:11 on Oct 24,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+######################SUMMARY of part3############################
+STUD: vsim does not work... port/module name issue?
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 1
+Number of PASSED: NA
+Number of FAILED: NA
+part3 is done!
